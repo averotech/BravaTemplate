@@ -1,12 +1,17 @@
 <template>
+<!-- homePage -->
 <Slider />
+<OurProduct />
 </template>
 <script>
-import Slider from '../components/HomePage/Slider.vue'
+
+// homePage
+import Slider from '../components/HomePage/Slider.vue';
+import OurProduct from '../components/HomePage/OurProducts.vue'
 export default {
     setup() {
         
     },
-    components:{Slider}
+    components:{Slider,OurProduct}
 }
 </script>
