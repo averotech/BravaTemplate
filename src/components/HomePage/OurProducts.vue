@@ -200,7 +200,7 @@
             class="
               mx-4
               inline-flex
-            space-x-4
+              space-x-4
               sm:mx-6
               xl:mx-0 xl:space-x-0 xl:grid xl:grid-cols-3 xl:gap-x-8
             "
@@ -213,6 +213,7 @@
                 text-center
                 xl:w-auto
                 bg-[#020203]
+                rounded-[10px]
                 pb-4
                 min-w-[380px]
               "
@@ -268,6 +269,7 @@
                 bg-[#020203]
                 pb-4
                 min-w-[380px]
+                rounded-[10px]
 
               "
             >
@@ -322,6 +324,7 @@
                 bg-[#020203]
                 pb-4
                 min-w-[380px]
+                rounded-[10px]  
 
               "
             >
