@@ -15,6 +15,28 @@
   }
   ```
 -->
+<div class="min-h-[273px] bg-[#F5F7FF]">
+   <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+<div class="flex flex-row-reverse flex-wrap   items-center justify-evenly">
+<div class="flex flex-col items-center justify-center max-w-[270px] pb-6 md:pb-0">
+<img src="../assets/Icons/Support.svg" alt="Saving">
+<p class="font-FlatBold text-[18px] pt-6">ارسالية مجانية </p>
+<p class="font-Flatnormal text-[14px] pt-4 text-center"> هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي </p>
+</div>
+<div class="flex flex-col items-center justify-center max-w-[270px] pb-6 md:pb-0">
+<img src="../assets/Icons/Support.svg" alt="Saving">
+<p class="font-FlatBold text-[18px] pt-6">تقسيط مريح</p>
+<p class="font-Flatnormal text-[14px] pt-4 text-center"> هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي </p>
+</div>
+<div class="flex flex-col items-center justify-center max-w-[270px] pb-6 md:pb-0">
+<img src="../assets/Icons/Support.svg" alt="Saving">
+<p class="font-FlatBold text-[18px] pt-6">ضمانة المنتج </p>
+<p class="font-Flatnormal text-[14px] pt-4 text-center"> هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي </p>
+</div>
+
+</div>
+   </div>
+</div>
 <footer class="bg-[#020203]" aria-labelledby="footer-heading">
   <h2 id="footer-heading" class="sr-only">Footer</h2>
   <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
