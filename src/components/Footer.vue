@@ -88,16 +88,14 @@
           </div>
       </div>
 
-
-    <div class="mt-8 border-t border-gray-700 pt-8 md:flex md:flex-row-reverse md:items-center md:justify-between">
-      <div class="flex  md:order-2">
+    <div class="mt-8 border-t border-gray-700 pt-8 flex sm:flex-row flex-col items-center gap-y-4 sm:gap-y-0 sm:items-center sm:justify-between">
+    <div class="flex  ">
         <a href="#" class="text-gray-400 hover:text-gray-300 px-1">
           <span class="sr-only">Facebook</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
           </svg>
         </a>
-
         <a href="#" class="text-gray-400 hover:text-gray-300 px-3">
           <span class="sr-only">Instagram</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -108,7 +106,16 @@
             BRAVA.IL
         </a>
       </div>
-      <p class="mt-8  font-Poppins text-[12px] text-white md:mt-0 md:order-1">Copyright © 2022brava.com</p>
+            <div class="flex flex-row-reverse items-center justify-center space-x-2">
+                <img src="../assets/Icons/paypal.svg" alt="paypal" class="ml-2">
+                <img src="../assets/Icons/visa.svg" alt="Visa">
+                <img src="../assets/Icons/maestro.svg" alt="Mestro">
+                <img src="../assets/Icons/discover.svg" alt="discover">
+                <img src="../assets/Icons/american-express.svg" alt="american-express">
+            </div>
+      <p class=" font-Poppins text-[12px] text-white md:mt-0 md:order-1">Copyright © 2022brava.com</p>
+
+
     </div>
   </div>
 </footer>
@@ -143,14 +150,6 @@ const navigation = {
     { name: 'هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها', href: '#' },
 
   ],}
-//   const address = [
-// Address: 1234 Street Adress City Address, 1234
-// Phones: (00) 1234 5678
-// نحن متواجدون: الاثنين - الخميس: 9:00 صباحًا - 5:30 مساءً
-// الجمعة: 9:00 ص - 6:00 م
-// السبت: 11:00 ص - 5:00 م
-// البريد الالكتروني: shop@email.com}
-//   ]
 export default {
     setup() {
         return{
