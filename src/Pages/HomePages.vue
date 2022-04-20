@@ -1,10 +1,9 @@
 <template>
 <!-- homePage -->
-<!-- <Slider /> -->
+<Slider />
 <!-- <OurProduct /> -->
-<!-- <ChooseMacAndWatch /> -->
-<!-- Footer -->
-<Footer />
+<ChooseMacAndWatch />
+<BestSeller/>
 </template>
 <script>
 
@@ -12,11 +11,11 @@
 import Slider from '../components/HomePage/Slider.vue';
 import OurProduct from '../components/HomePage/OurProducts.vue'
 import ChooseMacAndWatch from '../components/HomePage/ChooseMacAndWatch.vue'
-import Footer from '../components/Footer.vue'
+import BestSeller from '../components/HomePage/BestSeller.vue'
 export default {
     setup() {
         
     },
-    components:{Slider,OurProduct,ChooseMacAndWatch,Footer}
+    components:{Slider,OurProduct,ChooseMacAndWatch,BestSeller}
 }
 </script>
