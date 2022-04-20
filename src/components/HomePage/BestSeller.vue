@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white">
-    <div class="py-16 sm:py-20 xl:max-w-7xl xl:mx-auto xl:px-8">
+    <div class="py-16 sm:py-0 xl:max-w-7xl xl:mx-auto xl:px-8">
       <div class="flex flex-row-reverse justify-between items-center">
         <a href="#" class="text-[18px] sm:text-[30px] font-FlatBold text-[#000000]"
           >منتجاتنا لهذا اليوم</a
@@ -14,7 +14,7 @@
       </div>
 
       <div class="mt-8 relative">
-        <div class="relative w-full pb-6 -mb-6 overflow-x-auto">
+        <div class="relative w-full pb-6  overflow-x-auto">
           <ul
             role="list"
             class="
@@ -192,7 +192,7 @@
       </div>
 
   <!-- last section Slider -->
-  <div class="min-h-[310px] bg-[#F5F7FF] flex flex-col justify-start items-end pr-[30px] mt-[170px]">
+  <div class="min-h-[310px] mb-[76px] bg-[#F5F7FF] flex flex-col justify-start items-end pr-[30px] mt-[140px]">
     <div class="flex flex-row-reverse ">
       <p class="hidden sm:block text-[96px] font-Poppins pt-5  ">‘’</p>
       <p class=" pt-14 text-[14px] sm:text-[18px] font-Flatnormal  text-right max-w-[850px] pr-4">وصل طلبي الأول اليوم في حالة ممتازة. من الوقت الذي أرسلت فيه سؤالاً حول العنصر إلى إجراء الشراء ، إلى الشحن والآن التسليم ، بقيت شركتك على اتصال هذه خدمة رائعة إنني أتطلع إلى التسوق على موقعك في المستقبل وسأوصي به بشدة.</p>
