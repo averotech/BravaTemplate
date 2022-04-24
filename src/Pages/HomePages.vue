@@ -1,10 +1,12 @@
 <template>
 <!-- homePage -->
-<Slider />
+<!-- <Slider /> -->
 <!-- <OurProduct /> -->
 <!-- <ChooseMacAndWatch /> -->
-<BestOffer />
-<BestSeller/>
+<!-- <BestOffer /> -->
+<!-- <BestSeller/> -->
+<!-- <LoginPage /> -->
+<ProductListPage />
 </template>
 <script>
 
@@ -14,10 +16,16 @@ import OurProduct from '../components/HomePage/OurProducts.vue'
 import ChooseMacAndWatch from '../components/HomePage/ChooseMacAndWatch.vue'
 import BestSeller from '../components/HomePage/BestSeller.vue'
 import BestOffer from '../components/HomePage/BestOffer.vue'
+
+// landingPage
+import LoginPage from '../Pages/LandingPage/loginPage.vue'
+
+import ProductListPage from './Products/ProductList.vue'
+
 export default {
     setup() {
         
     },
-    components:{Slider,OurProduct,ChooseMacAndWatch,BestSeller,BestOffer}
+    components:{Slider,OurProduct,ChooseMacAndWatch,BestSeller,BestOffer,LoginPage,ProductListPage}
 }
 </script>
