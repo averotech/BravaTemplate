@@ -9,7 +9,9 @@
 <!-- <ProductListPage /> -->
 <!-- <ProductDetaisPage /> -->
 <!-- <MyProfile /> -->
-<AccounOrdedr />
+<!-- <AccounOrdedr /> -->
+<!-- <CustomerServices /> -->
+<DeleteOrder />
 </template>
 <script>
 
@@ -30,10 +32,12 @@ import ProductDetaisPage from './Products/ProductDetaisPage.vue'
 // Profile
 import MyProfile from './Profile/MyProfile.vue'
 import AccounOrdedr from './Profile/AccountOrder.vue'
+import CustomerServices from './Profile/CustomerServices.vue'
+import DeleteOrder from './Profile/Delete_Order.vue'
 export default {
     setup() {
         
     },
-    components:{Slider,OurProduct,ChooseMacAndWatch,BestSeller,BestOffer,ProductListPage,ProductDetaisPage,MyProfile,AccounOrdedr}
+    components:{Slider,OurProduct,ChooseMacAndWatch,BestSeller,BestOffer,ProductListPage,ProductDetaisPage,MyProfile,AccounOrdedr,CustomerServices,DeleteOrder}
 }
 </script>
