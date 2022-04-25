@@ -6,7 +6,9 @@
 <!-- <BestOffer /> -->
 <!-- <BestSeller/> -->
 <!-- <LoginPage /> -->
-<ProductListPage />
+<!-- <ProductListPage /> -->
+<!-- <ProductDetaisPage /> -->
+<MyProfile />
 </template>
 <script>
 
@@ -20,12 +22,17 @@ import BestOffer from '../components/HomePage/BestOffer.vue'
 // landingPage
 import LoginPage from '../Pages/LandingPage/loginPage.vue'
 
+// Product Page
 import ProductListPage from './Products/ProductList.vue'
+import ProductDetaisPage from './Products/ProductDetaisPage.vue'
+
+// Profile
+import MyProfile from './Profile/MyProfile.vue'
 
 export default {
     setup() {
         
     },
-    components:{Slider,OurProduct,ChooseMacAndWatch,BestSeller,BestOffer,LoginPage,ProductListPage}
+    components:{Slider,OurProduct,ChooseMacAndWatch,BestSeller,BestOffer,LoginPage,ProductListPage,ProductDetaisPage,MyProfile}
 }
 </script>
