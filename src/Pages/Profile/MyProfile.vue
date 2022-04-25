@@ -31,29 +31,29 @@
               </li>
             </ol>
           </nav>
-        <p class="text-right font-FlatBold text-[30px] pt-6">لوحة التحكم</p>
+        <p class="sm:text-right text-center font-FlatBold text-[30px] pt-6">لوحة التحكم</p>
     </div>
-        <div class="lg:flex lg:flex-row-reverse flex flex-col mx-auto px-4 my-4 sm:px-6 lg:max-w-7xl">
-       <div class="lg:basis-1/4 min-w-[300px] lg:block">
+        <div class="md:flex md:flex-row-reverse flex flex-col mx-auto px-4 my-4 sm:px-6 lg:max-w-7xl">
+       <div class="lg:basis-1/4 min-w-[300px] md:block hidden ">
        <nav class="bg-[#F5F7FF] text-white rounded-md" aria-label="Sidebar">
              <a  href="{{route('user-account')}}" class="flex hover:bg-black  duration-300  justify-between flex-row-reverse pr-5 py-5 text-[16px] font-shamelBold border-b-2 border-[#CACDD8] mx-3" >
-                <p class="w-full text-right border-l-2 border-l-[#0156FF] font-FlatBold text-[15px] text-[#212121] hover:text-white">حسابي </p>
+                <p class="w-full text-right hover:border-l-2 hover:border-l-[#0156FF] font-FlatBold text-[15px] text-[#212121] hover:text-white">حسابي </p>
              </a>
 
              <a href="{{route('account-oder') }}" class="flex hover:bg-black  duration-300  justify-between flex-row-reverse px-5 py-5 text-[16px] font-shamelBold border-b-2 border-[#CACDD8] mx-3" >
-                <p class="w-full text-right font-FlatBold text-[15px] text-[#212121] hover:text-white">طلباتي </p>
+                <p class="w-full text-right font-FlatBold text-[15px] text-[#212121] hover:text-white hover:border-l-2 hover:border-l-[#0156FF]">طلباتي </p>
 
              </a>
              <a href="{{route('wishlists')}}" class="flex hover:bg-black  duration-300  justify-between flex-row-reverse px-5 py-5 text-[16px] font-shamelBold border-b-2 border-[#CACDD8] mx-3" >
-                <p class="w-full text-right font-FlatBold text-[15px] text-[#212121] hover:text-white">تتبع الطلب </p>
+                <p class="w-full text-right font-FlatBold text-[15px] text-[#212121] hover:text-white hover:border-l-2 hover:border-l-[#0156FF]">تتبع الطلب </p>
              </a>
 
              <a class="flex hover:bg-black  duration-300  justify-between flex-row-reverse px-5 py-5 text-[16px] font-shamelBold border-b-2 border-[#CACDD8] mx-3" >
-                <p class="w-full text-right font-FlatBold text-[15px] text-[#212121] hover:text-white">خدمة العملاء  </p>
+                <p class="w-full text-right font-FlatBold text-[15px] text-[#212121] hover:text-white hover:border-l-2 hover:border-l-[#0156FF]">خدمة العملاء  </p>
 
              </a>
              <a href="{{route('customer.auth.logout')}}" class="flex hover:bg-black  duration-300  justify-between flex-row-reverse px-5 py-5 text-[16px] font-shamelBold border-b-2 border-[#CACDD8] mx-3">
-                <p class="w-full text-right font-FlatBold text-[15px] text-[#212121] hover:text-white"> تسيجل خروج </p>
+                <p class="w-full text-right font-FlatBold text-[15px] text-[#212121] hover:text-white hover:border-l-2 hover:border-l-[#0156FF]"> تسيجل خروج </p>
              </a>
           </nav>
        </div>
@@ -116,8 +116,8 @@
 
                             </tbody>
                          </table> -->
-<p class="font-FlatBold text-[18px] text-right border-b border-b-[#CACDD8] pb-4 mx-4">بياناتي الشخصية</p>
-<div class="flex flex-row-reverse  justify-start  mx-4 gap-x-32">
+<p class="font-FlatBold text-[18px] text-center sm:text-right border-b border-b-[#CACDD8] pb-4 mx-4">بياناتي الشخصية</p>
+<div class="flex flex-row-reverse flex-wrap justify-center  sm:justify-start  mx-4 gap-x-32">
 <div class="flex flex-col items-start justify-start ">
 <p class="font-FlatBold text-[16px] pt-4 text-right w-full">بيانات التواصل</p>
 <p class="font-Flatnormal text-[16px] pt-3 text-[#666666] text-right">
@@ -138,11 +138,10 @@ ExampeAdress@gmail.com
 <a class="font-Flatnormal text-[14px] text-[#0156FF] underline text-right w-full pt-14"  href="#">اشتراك</a>
     </div>
 </div>
-<p class="font-FlatBold text-[18px] text-right border-b border-b-[#CACDD8] pb-4 mx-4 mt-14"> عنوان الشحن</p>
-<p class="font-Flatnormal text-[14px] pt-6 text-right">عناون الشحن الافتراضي</p>
-<p class="font-Flatnormal text-[14px] text-[#666666] pt-9 text-right">Address: 1234 Street Adress City <br/> Address, 1234</p>
-<a href="#" class="pt-12 flex justify-end font-Flatnormal text-[14px] text-[#0156FF] underline text-right  mx-4">تغير العنوان </a>
-
+<p class="font-FlatBold text-[18px] text-center sm:text-right border-b border-b-[#CACDD8] pb-4 mx-4 mt-14"> عنوان الشحن</p>
+<p class="font-Flatnormal text-[14px] pt-6 text-center sm:text-right mx-4">عناون الشحن الافتراضي</p>
+<p class="font-Flatnormal text-[14px] text-[#666666] pt-9 text-center sm:text-right mx-4">Address: 1234 Street Adress City <br/> Address, 1234</p>
+<a href="#" class="pt-12 flex justify-center sm:justify-end font-Flatnormal text-[14px] text-[#0156FF] underline  text-right  mx-4">تغير العنوان </a>
                       </div>
                    </div>
                 </div>

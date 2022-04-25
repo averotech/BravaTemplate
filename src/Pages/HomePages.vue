@@ -20,7 +20,7 @@ import BestSeller from '../components/HomePage/BestSeller.vue'
 import BestOffer from '../components/HomePage/BestOffer.vue'
 
 // landingPage
-import LoginPage from '../Pages/LandingPage/loginPage.vue'
+// import LoginPage from '../Pages/LandingPage/loginPage.vue'
 
 // Product Page
 import ProductListPage from './Products/ProductList.vue'
