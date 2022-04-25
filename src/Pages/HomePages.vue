@@ -8,7 +8,8 @@
 <!-- <LoginPage /> -->
 <!-- <ProductListPage /> -->
 <!-- <ProductDetaisPage /> -->
-<MyProfile />
+<!-- <MyProfile /> -->
+<AccounOrdedr />
 </template>
 <script>
 
@@ -28,11 +29,11 @@ import ProductDetaisPage from './Products/ProductDetaisPage.vue'
 
 // Profile
 import MyProfile from './Profile/MyProfile.vue'
-
+import AccounOrdedr from './Profile/AccountOrder.vue'
 export default {
     setup() {
         
     },
-    components:{Slider,OurProduct,ChooseMacAndWatch,BestSeller,BestOffer,LoginPage,ProductListPage,ProductDetaisPage,MyProfile}
+    components:{Slider,OurProduct,ChooseMacAndWatch,BestSeller,BestOffer,ProductListPage,ProductDetaisPage,MyProfile,AccounOrdedr}
 }
 </script>
